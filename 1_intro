@@ -1,0 +1,48 @@
+#this us my first python program
+from operator import truediv
+
+print("I LIKE FOOD!")
+print("THIS IS CRAZY")
+
+# Variable
+#Strings is a series of characters they can include numbers but we consider it as string
+#they are always denoted with double qoutes""
+first_name = "BOSS"
+email = "example@123.com"
+print(f"Hello {first_name}")# f is format
+print(f"your email is {email}")
+
+#integers
+age = 21
+quantity = 3
+print(f"you are {age}")
+print(f"he will buy {quantity} appples")
+
+#float{distance,time,weight etc}
+price = 20.19
+print(f"the price is ${20.19}")
+
+#Boolean
+is_student = False
+if is_student:
+    print("you are a student")
+else:
+    print("you are not a student")
+
+
+#Typecasting = the process of converting a variable from one data type to another
+           #    str(), int(), float(), bool()
+
+name = "Kiran"
+age = 21
+cgpa = 9.5
+is_student = True
+
+cgpa = int(cgpa)
+print(cgpa)
+
+age = float(age)
+print(age)
+
+age += 1
+print (age)
