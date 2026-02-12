@@ -1,4 +1,4 @@
-#this us my first python program
+#this is my first python program
 from operator import truediv
 
 print("I LIKE FOOD!")
