@@ -14,3 +14,12 @@ else:
     print("The outdoor event is still scheduled")
 
 
+temp = 29
+is_sunny = True
+
+if temp >= 28 and is_sunny:
+    print("It is hot outside")
+    print("It is SUNNY")
+elif temp <= 0  and is_sunny:
+    print("It is COLD outside")
+    print("It is SUNNY")
