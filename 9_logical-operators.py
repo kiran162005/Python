@@ -32,3 +32,6 @@ elif temp >= 28  and not is_sunny:
 elif temp <= 0 and not is_sunny:
     print("It is COLD outside")
     print("It is CLOUDY")
+elif 28 > temp > 0 and not is_sunny:
+    print("It is WARM outside")
+    print("It is CLOUDY")
