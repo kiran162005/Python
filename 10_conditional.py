@@ -8,3 +8,6 @@ a= 6
 b = 7
 age = 25
 
+temp = 20
+user_role = "admin"
+
