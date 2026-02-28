@@ -9,3 +9,14 @@
 # result = name.isdigit()
 # result = name.isalpha()
 
+# print(result)
+'''
+phone = input("Enter your phone number: ")
+
+res = phone.count("-")
+print(res)
+
+phone = phone.replace("-"," ")
+print(phone)
+'''
+
