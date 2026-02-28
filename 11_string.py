@@ -20,3 +20,12 @@ phone = phone.replace("-"," ")
 print(phone)
 '''
 
+# print(help(str))
+
+
+#validate user input
+# 1. username is no more than 12 characters
+# 2. username must not contain spaces
+# 3. username must not contain digits
+
+
