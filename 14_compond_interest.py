@@ -13,18 +13,4 @@ while True:
 
 while True:
     rate = float(input("Enter the interest rate:"))
-    if rate <= 0:
-        print("Interest rate cant be less than or equal to zero")
-    else:
-        break
-
-while time <= 0:
-    time = int(input("Enter the time in years:"))
-    if time <= 0:
-        print("Time cant be less than or equal to zero")
-
-total = principle * pow((1+rate / 100), time)
-print(f"Balance after {time} year/s: ${total:.2f}")
-print(principle)
-print(rate)
-print(time)
+    
