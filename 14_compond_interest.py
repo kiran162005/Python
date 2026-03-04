@@ -18,3 +18,8 @@ while True:
     else:
         break
 
+while time <= 0:
+    time = int(input("Enter the time in years:"))
+    if time <= 0:
+        print("Time cant be less than or equal to zero")
+
