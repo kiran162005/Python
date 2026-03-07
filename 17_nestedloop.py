@@ -9,3 +9,9 @@
     print()'''
 
 
+
+
+rows = int(input("Enter the # of rows: "))
+columns = int(input("Enter the # of columns: "))
+symbol = input("Enter a symbol to use: ")
+
