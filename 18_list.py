@@ -21,3 +21,14 @@
 
 # fruits[0] = "pineapple"
 
+# fruits.append("pineapple")
+# fruits.remove("apple")
+# fruits.insert(0, "pineapple")
+# fruits.sort()
+# fruits.reverse()
+# fruits.clear()
+# print(fruits.index("apple"))
+# print(fruits.count("Banana"))
+# print(fruits)
+
+
