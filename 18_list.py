@@ -44,3 +44,12 @@
 # # fruits.clear()
 # print(fruits)
 
+
+'''
+# Tuple = () ordered and unchangable. Duplicates OK, Faster
+'''
+fruits = ("apple", "orange", "banana", "coconut")
+
+# print(len(fruits))
+# print("pineapple" in fruits)
+
