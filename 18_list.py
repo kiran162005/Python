@@ -13,3 +13,11 @@
 # print(fruits[::2])
 # print(fruits[::-1])
 
+# for x in fruits:
+#     print(x)
+
+# print(len(fruits))
+# print("apple" in fruits)
+
+# fruits[0] = "pineapple"
+
