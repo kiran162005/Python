@@ -32,3 +32,15 @@
 # print(fruits)
 
 
+"""
+# Set = {} unordered and immutable. but add/remove OK. NO duplicates
+"""
+
+# fruits = {"apple", "orange", "banana", "coconut", "coconut"}
+
+# fruits.add("pineapple")
+# fruits.remove("apple")
+# # fruits.pop()
+# # fruits.clear()
+# print(fruits)
+
