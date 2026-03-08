@@ -53,3 +53,8 @@ fruits = ("apple", "orange", "banana", "coconut")
 # print(len(fruits))
 # print("pineapple" in fruits)
 
+print(fruits.index("banana"))
+print(fruits.count("coconut"))
+
+for fruit in fruits:
+    print(fruit)
