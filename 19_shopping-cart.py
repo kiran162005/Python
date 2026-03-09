@@ -13,3 +13,8 @@ while True:
         foods.append(food)
         prices.append(price)
 
+print("----- YOUR CART -----")
+
+for food in foods:
+    print(food, end=" ")
+
