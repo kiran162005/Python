@@ -35,3 +35,19 @@ for question in questions:
     question_num += 1
 
 
+print("---------------------------------------")
+print("               RESULTS                 ")
+print("---------------------------------------")
+
+print("answers: ",end=" ")
+for answer in answers:
+    print(answer, end=" ")
+print()
+
+print("guesses: ",end=" ")
+for guess in guesses:
+    print(answer, end=" ")
+print()
+
+score = int(score/len(questions) * 100)
+print(f"Your score is: {score}%")
