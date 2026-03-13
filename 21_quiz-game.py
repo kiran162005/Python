@@ -12,3 +12,9 @@ options = (("A. 116", "B. 117 ", "C. 118 ", "D. 119 "),
            ("A. 206", "B. 207 ", "C. 208", "D. 209"), 
            ("A. Mercury", "B. Venus", "C. Earth", "D. Mars"))
 
+answers = ("C", "D", "A", "A", "B")
+guesses = []
+score = 0
+question_num = 0
+
+
