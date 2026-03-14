@@ -34,3 +34,7 @@ capitals = {"USA": "Washington D.C.",
 # for value in capitals.values():
 #     print(value)
 
+
+items = capitals.items()
+for key, value in capitals.items():
+    print(f"{key}: {value}")
