@@ -19,3 +19,9 @@ capitals = {"USA": "Washington D.C.",
 # else:
 #     print("That capital doesn't exists")
 
+# capitals.update({"Germany": "Berlin"})
+# capitals.update({"USA": "Detroit"})
+# capitals.pop("China")
+# capitals.popitem()
+# capitals.clear()
+
