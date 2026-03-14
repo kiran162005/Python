@@ -11,3 +11,6 @@ capitals = {"USA": "Washington D.C.",
 # print(dir(capitals))
 # print(help(capitals))
 
+# print(capitals.get("India"))
+# print(capitals.get("Japan")) #returns none as there is no key called Japan
+
