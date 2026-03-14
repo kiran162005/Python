@@ -25,3 +25,8 @@ capitals = {"USA": "Washington D.C.",
 # capitals.popitem()
 # capitals.clear()
 
+# keys = capitals.keys()
+# for key in capitals.keys():
+#     print(key)
+
+
