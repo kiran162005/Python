@@ -14,3 +14,8 @@ capitals = {"USA": "Washington D.C.",
 # print(capitals.get("India"))
 # print(capitals.get("Japan")) #returns none as there is no key called Japan
 
+# if capitals.get("Japan"):
+#     print("That capital exists")
+# else:
+#     print("That capital doesn't exists")
+
