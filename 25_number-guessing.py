@@ -18,4 +18,8 @@ while is_runnig:
         guess = int(guess)
         guesses += 1
 
+        if guess < lowest_num or guess > highest_num:
+            print("TYhat number is out of range")
+            print(f"Select a number between {lowest_num} and {highest_num}")
+
         
