@@ -32,4 +32,6 @@ while is_runnig:
             print(f"Number of guesses: {guesses}")
             is_running = False
 
-    
+    else:
+        print("Invalid guess")
+        print(f"Select a number between {lowest_num} and {highest_num}")
