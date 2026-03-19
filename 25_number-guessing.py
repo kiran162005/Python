@@ -22,4 +22,9 @@ while is_runnig:
             print("TYhat number is out of range")
             print(f"Select a number between {lowest_num} and {highest_num}")
 
+        elif guess < answer:
+            print("Too low! Try again")
+        elif guess > answer:
+            print("Too high! Try again")
+
         
