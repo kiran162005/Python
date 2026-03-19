@@ -14,4 +14,8 @@ print(f"Select a number between {lowest_num} and {highest_num}")
 while is_runnig:
     guess = input("Enter your guess: ")
 
-    
+    if guess.isdigit():
+        guess = int(guess)
+        guesses += 1
+
+        
