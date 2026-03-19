@@ -27,4 +27,9 @@ while is_runnig:
         elif guess > answer:
             print("Too high! Try again")
 
-        
+        else:
+            print(f"CORRECT! The answer was {answer}")
+            print(f"Number of guesses: {guesses}")
+            is_running = False
+
+    
