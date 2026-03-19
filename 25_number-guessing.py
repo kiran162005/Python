@@ -11,3 +11,7 @@ is_runnig = True
 print("Python number Guessing Game")
 print(f"Select a number between {lowest_num} and {highest_num}")
 
+while is_runnig:
+    guess = input("Enter your guess: ")
+
+    
