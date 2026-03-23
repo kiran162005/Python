@@ -25,4 +25,6 @@ while True:
     else:
         print("You lose!")
 
-    
+    if not input("Play again?(Y/N) ").lower() == "y":
+        running = False
+
