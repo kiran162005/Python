@@ -8,4 +8,6 @@ while True:
     player = None
     computer = random. choice(options)
 
-    
+    while player not in options:
+        player = input("Enter a choice (rock, paper, scissors): ")
+
