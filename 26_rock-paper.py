@@ -11,3 +11,6 @@ while True:
     while player not in options:
         player = input("Enter a choice (rock, paper, scissors): ")
 
+    print(f"Player: {player}")
+    print(f"Computer: {computer}")
+
