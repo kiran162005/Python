@@ -18,4 +18,6 @@ while True:
         print("It's a tie!")
     elif player == "rock" and computer == "scissors":
         print("You win!")
+    elif player == "paper" and computer == "rock":
+        print("You win!")
     
