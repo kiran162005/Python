@@ -14,3 +14,6 @@ while True:
     print(f"Player: {player}")
     print(f"Computer: {computer}")
 
+    if player == computer:
+        print("It's a tie!")
+    
