@@ -67,3 +67,6 @@ for line in range(5):
         print(dice_art.get(die)[line], end="")
     print()
 
+for die in dice:
+    total += die
+print(f"total: {total}")
