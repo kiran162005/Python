@@ -62,3 +62,8 @@ for die in range(num_of_dice):
 #     for line in dice_art.get(dice[die]):
 #         print(line)
 
+for line in range(5):
+    for die in dice:
+        print(dice_art.get(die)[line], end="")
+    print()
+
