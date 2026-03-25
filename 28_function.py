@@ -36,4 +36,9 @@ def div(x, y):
     z = x / y
     return z
 
+print(add(1,2))
+print(sub(1,2))
+print(mul(1,2))
+print(div(1,2))
+
 
