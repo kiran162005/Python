@@ -47,3 +47,5 @@ def create_name(first, last):
     last = last. capitalize()
     return first + " " + last
 
+full_name = create_name("Kiran", "Raj")
+print(full_name)
