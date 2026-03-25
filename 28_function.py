@@ -6,3 +6,7 @@
 #     print(f"You are {age} years old!")
 #     print("Happy birthday to you!")
 #     print()
+
+# happy_birthday("Bro", 20)
+# happy_birthday("Joe", 22)
+
