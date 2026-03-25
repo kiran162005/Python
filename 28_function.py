@@ -42,3 +42,8 @@ print(mul(1,2))
 print(div(1,2))
 
 
+def create_name(first, last):
+    first = first. capitalize()
+    last = last. capitalize()
+    return first + " " + last
+
