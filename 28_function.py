@@ -17,3 +17,6 @@
 display_invoice("Alice", 43.20, "01/01")
 '''
 
+# return = statemenr used to end a function
+#           and send a result back to the caller
+
