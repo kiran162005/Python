@@ -22,3 +22,10 @@ print(add(1, 2, 3))
         print(f"{key}: {value}")
 
 
+print_address(street="123 Fake St.",
+              apt = "100",
+              city="Detroit",
+              state="MI",
+              zip="54321")
+'''
+
