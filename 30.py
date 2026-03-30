@@ -40,3 +40,8 @@ def shipping_label(*args, **kwargs):
     else:
         print(f"{kwargs.get('street')} ")
 
+
+
+    # for value in kwargs.values():
+    #     print(value, end=" ")
+
