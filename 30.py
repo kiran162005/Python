@@ -11,3 +11,7 @@
 print(add(1, 2, 3))
 '''
 
+# def display_name(*args):
+#     for arg in args:
+#         print(arg, end=" ")
+
