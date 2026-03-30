@@ -45,3 +45,11 @@ def shipping_label(*args, **kwargs):
     # for value in kwargs.values():
     #     print(value, end=" ")
 
+shipping_label(
+    "Dr.", "Spongebob", "Squarepants", "III",
+    street="123 Fake St.",
+    apt="100",
+    city="Detroit",
+    state="MI",
+    zip="54321"
+)
