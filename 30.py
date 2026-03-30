@@ -29,3 +29,8 @@ print_address(street="123 Fake St.",
               zip="54321")
 '''
 
+def shipping_label(*args, **kwargs):
+    for arg in args:
+        print(arg, end=" ")
+    print()
+
