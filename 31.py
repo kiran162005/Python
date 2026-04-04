@@ -10,3 +10,7 @@
 #     print(number, end=" ")
 
 
+# fruits = {"apple", "orange", "banana", "coconut"}  # Sets cant be reversed
+# for fruit in fruits:
+#     print(fruit)
+
