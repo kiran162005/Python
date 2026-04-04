@@ -6,3 +6,7 @@
 # # for number in numbers:
 # #     print(number)
 
+# for number in reversed(numbers):
+#     print(number, end=" ")
+
+
