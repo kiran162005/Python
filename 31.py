@@ -14,3 +14,7 @@
 # for fruit in fruits:
 #     print(fruit)
 
+# name = "Kiran Raj"
+# for character in name:
+#     print(character, end=" ")
+
