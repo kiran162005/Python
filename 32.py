@@ -21,3 +21,11 @@ else:
 # else:
 #     print(f"{student} was not found")
 
+'''
+grades = {
+    "Sandy": "A",
+    "Squidward": "B",
+    "Spongebob": "C",
+    "Patrick": "D"
+}
+
