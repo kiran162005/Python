@@ -29,3 +29,5 @@ grades = {
     "Patrick": "D"
 }
 
+student = input("Enter the name of a student: ")
+
