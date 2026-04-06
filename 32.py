@@ -36,3 +36,6 @@ if student in grades:
 else:
     print(f"{student} was not found")
 '''
+
+email = "Kiran@gmail.com"
+
