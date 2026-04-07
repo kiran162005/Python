@@ -19,3 +19,8 @@ print(doubles)
 print(triples)
 print(squares)
 '''
+
+'''
+fruits = ["apple", "orange", "banana", "coconut"]
+fruit_chars = [fruit[0] for fruit in fruits]
+fruits = [fruit.upper() for fruit in fruits]
