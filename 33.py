@@ -34,3 +34,9 @@ positive_nums = [num for num in numbers if num >= 0]
 negative_nums = [num for num in numbers if num < 0]
 even_nums = [num for num in numbers if num % 2 ==0]
 odd_nums = [num for num in numbers if num % 2 ==1]
+print(odd_nums)
+print(even_nums)
+print(negative_nums)
+print(positive_nums)
+'''
+
