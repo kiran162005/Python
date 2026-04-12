@@ -29,4 +29,9 @@ def is_weekend(day):
     match day:
         case "Sunday":
             return True
-        
+        case "Monday":
+            return False
+        case "Tuesday":
+            return False
+        case "Wednesday":
+            return False
