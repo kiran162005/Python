@@ -35,3 +35,10 @@ def is_weekend(day):
             return False
         case "Wednesday":
             return False
+        case "Thursday":
+            return False
+        case "Friday":
+            return False
+        case "Saturday":
+            return True
+        
