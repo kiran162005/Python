@@ -47,3 +47,4 @@ def is_weekend(day):
 print(is_weekend("Monday"))
 
 
+def is_weekend(day):
