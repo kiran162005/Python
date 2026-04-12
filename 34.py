@@ -53,4 +53,7 @@ def is_weekend(day):
             return True
         case "Monday" | "Tuesday" | "Wednesday" | "Thursday" | "Friday":
             return False
-        
+        case _:
+            return False
+
+print(is_weekend("Saturday"))
