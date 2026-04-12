@@ -14,3 +14,8 @@ def day_of_week(day):
             return "It is Wednesday"
         case 5:
             return "It is Thursday"
+        case 6:
+            return "It is Friday"
+        case 7:
+            return "It is Saturday"
+        
