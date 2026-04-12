@@ -25,3 +25,8 @@ print(day_of_week(1))
 
 
 
+def is_weekend(day):
+    match day:
+        case "Sunday":
+            return True
+        
