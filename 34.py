@@ -18,4 +18,10 @@ def day_of_week(day):
             return "It is Friday"
         case 7:
             return "It is Saturday"
-        
+        case _:
+            return "Not a valid day"
+
+print(day_of_week(1))
+
+
+
