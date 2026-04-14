@@ -2,3 +2,7 @@
 # use 'import' to include a module (built-in or your own)
 # useful to break up a large program reusable separate files
 
+# print(help("modules"))
+# print(help("math"))
+
+
