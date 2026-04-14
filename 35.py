@@ -17,3 +17,4 @@
 # print(e)
 
 from math import e
+a, b, c, d, e = 1, 2, 3, 4, 5
