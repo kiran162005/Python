@@ -8,3 +8,6 @@ def square(x):
 def cube(x):
     return x ** 3
 
+def circumference(radius):
+    return 2 * pi * radius
+
