@@ -10,3 +10,7 @@ def func2():
     x = 2
     print(x)
 
+func1()
+func2()
+'''
+
