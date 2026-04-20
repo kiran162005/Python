@@ -27,3 +27,5 @@ def func1():
 func1()
 '''
 
+from math import e
+
