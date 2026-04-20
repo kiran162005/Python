@@ -24,3 +24,6 @@ def func1():
         print(x)
     func2()
 
+func1()
+'''
+
