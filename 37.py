@@ -20,3 +20,5 @@ def func1():
     print(x)
 
     def func2():
+        x = 2
+        print(x)
