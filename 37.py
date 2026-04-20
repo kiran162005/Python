@@ -14,3 +14,6 @@ func1()
 func2()
 '''
 
+'''
+def func1():
+
