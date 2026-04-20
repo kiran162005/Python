@@ -16,4 +16,6 @@ func2()
 
 '''
 def func1():
+    x = 1
+    print(x)
 
