@@ -23,3 +23,6 @@ def withdraw(balance):
     amount = float(input("Enter amount to be withdrawn: "))
     print("**************************")
 
+    if amount > balance:
+        print("Insufficient funds")
+        return 0
