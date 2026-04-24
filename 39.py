@@ -47,3 +47,5 @@ def main():
         print("4. Exit")
         print("*********************************")
 
+        choice = input("Enter your choice (1-4): ")
+
