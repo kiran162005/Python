@@ -18,3 +18,8 @@ def deposit():
         return amount
 
 
+def withdraw(balance):
+    print("**************************")
+    amount = float(input("Enter amount to be withdrawn: "))
+    print("**************************")
+
