@@ -49,3 +49,7 @@ def main():
 
         choice = input("Enter your choice (1-4): ")
 
+        if choice == '1':
+            show_balance(balance)
+        elif choice == '2':
+            balance += deposit()
