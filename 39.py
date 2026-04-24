@@ -61,3 +61,9 @@ def main():
             print("**************************")
             print("This is not a valid choice")
             print("**************************")
+
+    print("***************************")
+    print("Thank you! Have a nice day!")
+    print("***************************")
+
+
