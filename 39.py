@@ -53,3 +53,11 @@ def main():
             show_balance(balance)
         elif choice == '2':
             balance += deposit()
+        elif choice == '3':
+            balance -= withdraw(balance)
+        elif choice == '4':
+            is_running = False
+        else:
+            print("**************************")
+            print("This is not a valid choice")
+            print("**************************")
