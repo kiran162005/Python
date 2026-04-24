@@ -14,3 +14,7 @@ def deposit():
     if amount < 0:
         print("This is not a valid amount")
         return 0
+    else:
+        return amount
+
+
