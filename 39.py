@@ -6,3 +6,8 @@ def show_balance(balance):
     print("**************************")
 
 
+def deposit():
+    print("**************************")
+    amount = float(input("Enter an amount to be deposited: "))
+    print("**************************")
+
