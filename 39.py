@@ -41,3 +41,9 @@ def main():
         print("*********************************")
         print("          Banking Program        ")
         print("*********************************")
+        print("1. Show Balance")
+        print("2. Deposit")
+        print("3. Withdraw")
+        print("4. Exit")
+        print("*********************************")
+
