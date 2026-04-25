@@ -77,3 +77,14 @@ def main():
         else:
             print("You lost!")
 
+        balance += winnings
+
+    
+        play_again = input("Do you want to spin again? (Y/N): ").upper()
+
+        if play_again != 'Y':
+            break
+
+    print("\nGame over! Final balance:", balance)
+
+
