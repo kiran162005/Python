@@ -37,3 +37,8 @@ def get_payout(row, bet):
 def main():
     balance = 100
 
+    print("************************")
+    print(" Welcome to Python Slots ")
+    print("************************")
+    print("Symbols: 🍒 🍉 🍋 🔔 ⭐")
+
