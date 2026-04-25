@@ -17,3 +17,9 @@ def print_row(row):
     print(" | ".join(row))
     print("***************")
 
+
+def get_payout(row, bet):
+    # All 3 match
+    if row[0] == row[1] == row[2]:
+        if row[0] == '🍒':
+            return bet * 3
