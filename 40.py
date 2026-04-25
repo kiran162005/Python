@@ -88,3 +88,5 @@ def main():
     print("\nGame over! Final balance:", balance)
 
 
+if __name__ == "__main__":
+    main()
