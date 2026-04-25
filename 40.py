@@ -56,3 +56,11 @@ def main():
 
         bet = int(bet)
 
+        if bet > balance:
+            print("Insufficient funds ")
+            continue
+
+        if bet <= 0:
+            print("Bet must be greater than 0")
+            continue
+
