@@ -70,3 +70,5 @@ def main():
         print("\nSpinning...\n")
         print_row(row)
 
+        winnings = get_payout(row, bet)
+
