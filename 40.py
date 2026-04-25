@@ -72,3 +72,8 @@ def main():
 
         winnings = get_payout(row, bet)
 
+        if winnings > 0:
+            print(f"You won {winnings}!")
+        else:
+            print("You lost!")
+
