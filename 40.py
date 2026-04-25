@@ -64,3 +64,9 @@ def main():
             print("Bet must be greater than 0")
             continue
 
+        balance -= bet
+
+        row = spin_row()
+        print("\nSpinning...\n")
+        print_row(row)
+
