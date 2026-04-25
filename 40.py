@@ -42,3 +42,6 @@ def main():
     print("************************")
     print("Symbols: 🍒 🍉 🍋 🔔 ⭐")
 
+    while balance > 0:
+        print(f"\nCurrent balance: {balance}")
+
