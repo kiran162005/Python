@@ -45,3 +45,14 @@ def main():
     while balance > 0:
         print(f"\nCurrent balance: {balance}")
 
+        bet = input("Enter your bet amount(or 'q' to quit): ")
+
+        if bet.lower() == 'q':
+            break
+
+        if not bet.isdigit():
+            print("Invalid input")
+            continue
+
+        bet = int(bet)
+
