@@ -20,3 +20,7 @@ for letter in plain_text:
     index = chars.index(letter)
     cipher_text += key[index]
 
+print(f"Original message: {plain_text}")
+print(f"Encrypter message: {cipher_text}")
+
+
