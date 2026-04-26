@@ -31,3 +31,6 @@ plain_text = ""
 for letter in cipher_text:
     index = key.index(letter)
     plain_text += chars[index]
+
+print(f"Encrypter message: {cipher_text}")
+print(f"Original message: {plain_text}")
