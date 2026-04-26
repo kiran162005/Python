@@ -28,3 +28,6 @@ print(f"Encrypter message: {cipher_text}")
 cipher_text = input("Enter a message to decrypt: ")
 plain_text = ""
 
+for letter in cipher_text:
+    index = key.index(letter)
+    plain_text += chars[index]
