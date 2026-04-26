@@ -12,3 +12,7 @@ random.shuffle(key)
 # print(f"chars: {chars}")
 # print(f"key: {key}")
 
+# Encrypt
+plain_text = input("Enter a message to encrypt: ")
+cipher_text = ""
+
