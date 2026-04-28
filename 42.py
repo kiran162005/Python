@@ -55,3 +55,10 @@ def main():
             wrong_guesses += 1
             print("Wrong guess!")
 
+        # Win condition
+        if "_" not in hint:
+            display_man(wrong_guesses)
+            display_answer(answer)
+            print("YOU WIN 🎉")
+            break
+
