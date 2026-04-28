@@ -16,3 +16,6 @@ def display_man(wrong_guesses):
     for line in hangman_art[wrong_guesses]:
         print(line)
 
+def display_hint(hint):
+    print(" ".join(hint))
+
