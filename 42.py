@@ -22,3 +22,10 @@ def display_hint(hint):
 def display_answer(answer):
     print("The word was:", answer)
 
+def main():
+    answer = random.choice(words)
+    hint = ["_"] * len(answer)
+    wrong_guesses = 0
+    guessed_letters = set()
+    max_wrong = 6
+
