@@ -29,3 +29,5 @@ def main():
     guessed_letters = set()
     max_wrong = 6
 
+    print("Welcome to Hangman!")
+
