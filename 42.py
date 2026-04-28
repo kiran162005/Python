@@ -41,3 +41,9 @@ def main():
             print("Invalid input")
             continue
 
+        if guess in guessed_letters:
+            print(f"{guess} already guessed")
+            continue
+        
+        guessed_letters.add(guess)
+
