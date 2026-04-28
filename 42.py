@@ -62,3 +62,10 @@ def main():
             print("YOU WIN 🎉")
             break
 
+        # Lose condition
+        if wrong_guesses >= max_wrong:
+            display_man(wrong_guesses)
+            display_answer(answer)
+            print("YOU LOSE 💀")
+            break
+
