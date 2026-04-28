@@ -47,3 +47,11 @@ def main():
         
         guessed_letters.add(guess)
 
+        if guess in answer:
+            for i in range(len(answer)):
+                if answer[i] == guess:
+                    hint[i] = guess
+        else:
+            wrong_guesses += 1
+            print("Wrong guess!")
+
