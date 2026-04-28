@@ -19,3 +19,6 @@ def display_man(wrong_guesses):
 def display_hint(hint):
     print(" ".join(hint))
 
+def display_answer(answer):
+    print("The word was:", answer)
+
