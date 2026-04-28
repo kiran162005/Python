@@ -31,3 +31,8 @@ def main():
 
     print("Welcome to Hangman!")
 
+    while True:
+        display_man(wrong_guesses)
+        display_hint(hint)
+
+        
