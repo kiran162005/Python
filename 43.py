@@ -4,3 +4,7 @@
 
 # class = (blueprint) used to design the structure and layout of an object 
 
+from car import Car
+
+
+
