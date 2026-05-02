@@ -17,3 +17,6 @@ car2 = Car("Corvette", 2025, "blue", True)
 
 print(car2.model)
 print(car2.year)
+print(car2.color)
+print(car2.for_sale)
+
