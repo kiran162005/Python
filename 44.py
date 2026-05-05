@@ -5,3 +5,6 @@
 class Student:
 
     class_year = 2026
+    num_students = 0
+
+
