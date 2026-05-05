@@ -19,3 +19,4 @@ student3 = Student("Sandy", 32)
 student4 = Student("Alice", 27)
 
 
+# print(student1.name, student1.age)
