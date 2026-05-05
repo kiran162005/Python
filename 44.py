@@ -20,3 +20,6 @@ student4 = Student("Alice", 27)
 
 
 # print(student1.name, student1.age)
+# print(student2.name, student2.age)
+# print(Student.class_year)
+
