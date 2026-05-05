@@ -13,3 +13,5 @@ class Student:
         self.age = age
         Student.num_students += 1
 
+student1 = Student("Spongebob", 30)
+student2 = Student("Patrick", 35)
