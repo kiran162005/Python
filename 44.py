@@ -15,3 +15,7 @@ class Student:
 
 student1 = Student("Spongebob", 30)
 student2 = Student("Patrick", 35)
+student3 = Student("Sandy", 32)
+student4 = Student("Alice", 27)
+
+
