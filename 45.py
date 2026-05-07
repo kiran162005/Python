@@ -24,3 +24,8 @@ class Cat(Animal):
         print("MEOW!")
 
 
+class Mouse(Animal):
+    def speak(self):
+        print("SQUEEK!")
+
+
