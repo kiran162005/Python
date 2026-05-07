@@ -29,3 +29,8 @@ class Mouse(Animal):
         print("SQUEEK!")
 
 
+# Create objects
+dog = Dog("Buddy")
+cat = Cat("Whiskers")
+mouse = Mouse("Jerry")
+
