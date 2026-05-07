@@ -34,3 +34,8 @@ dog = Dog("Buddy")
 cat = Cat("Whiskers")
 mouse = Mouse("Jerry")
 
+# Use inherited methods
+# cat.sleep()
+# mouse.eat()
+
+
