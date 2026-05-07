@@ -39,3 +39,5 @@ mouse = Mouse("Jerry")
 # mouse.eat()
 
 
+print(dog.name)
+print(dog.is_alive)
