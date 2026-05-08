@@ -31,3 +31,7 @@ class Hawk(Predator):
 class Fish(Prey, Predator):
     pass
 
+rabbit = Rabbit("Bugs")
+hawk = Hawk("Tony")
+fish = Fish("Neno")
+
