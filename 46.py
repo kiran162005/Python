@@ -35,3 +35,6 @@ rabbit = Rabbit("Bugs")
 hawk = Hawk("Tony")
 fish = Fish("Neno")
 
+fish.flee()
+fish.sleep()
+rabbit.eat()
