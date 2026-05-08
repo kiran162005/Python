@@ -14,3 +14,7 @@ class Animal:
     def sleep(self):
         print(f" {self.name} is sleeping")
 
+class Prey(Animal):
+    def flee(self):
+        print(f" {self.name} is fleeing")
+
