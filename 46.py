@@ -22,3 +22,12 @@ class Predator(Animal):
     def hunt(self):
         print(f" {self.name} is hunting")
 
+class Rabbit(Prey):
+    pass
+
+class Hawk(Predator):
+    pass
+
+class Fish(Prey, Predator):
+    pass
+
