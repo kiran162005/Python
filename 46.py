@@ -18,3 +18,7 @@ class Prey(Animal):
     def flee(self):
         print(f" {self.name} is fleeing")
 
+class Predator(Animal):
+    def hunt(self):
+        print(f" {self.name} is hunting")
+
