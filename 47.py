@@ -15,3 +15,7 @@ class Circle(Shape):
         super().__init__(color, is_filled)
         self.radius = radius
 
+    def describe(self):
+        print(f"it is a circle with an area of {3.14 * self.radius * self.radius}")
+        super().describe()
+
