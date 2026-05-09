@@ -24,3 +24,9 @@ class Square(Shape):
         super().__init__(color, is_filled)
         self.width = width
 
+class Triangle(Shape):
+    def __init__(self, color, is_filled, width, height):
+        super().__init__(color, is_filled)
+        self.width = width
+        self.height = height
+
