@@ -34,3 +34,5 @@ circle = Circle("red", True, 5)
 square = Square(color = "blue", is_filled = False, width = 6)
 triangle = Triangle(color= "yellow", is_filled=True, width=7, height=8)
 
+print(circle.color, circle.is_filled, circle.radius)
+print(square.color, square.is_filled, square.width)
