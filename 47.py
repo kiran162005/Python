@@ -30,3 +30,7 @@ class Triangle(Shape):
         self.width = width
         self.height = height
 
+circle = Circle("red", True, 5)
+square = Square(color = "blue", is_filled = False, width = 6)
+triangle = Triangle(color= "yellow", is_filled=True, width=7, height=8)
+
