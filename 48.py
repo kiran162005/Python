@@ -47,3 +47,7 @@ class Pizza(Circle):
         self.topping = topping
 
 
+shapes = [Circle(4), Square(5), Triangle(6, 7), Pizza("pepperoni", 15)]
+
+for shape in shapes:
+    print(shape.area())
