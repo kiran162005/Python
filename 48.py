@@ -7,3 +7,12 @@
 # 1. Inheritance = An object could be treated as the same type as a parent class
 # 2. Duck typing = Object must have necessary attributes/methods
 
+from abc import ABC, abstractmethod
+
+class Shape(ABC):
+    
+    @abstractmethod
+    def area(self):
+        pass
+
+
