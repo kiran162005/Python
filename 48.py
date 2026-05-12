@@ -23,3 +23,12 @@ class Circle(Shape):
     def area(self):
         return 3.14 * self.radius ** 2
 
+
+class Square(Shape):
+    def __init__(self, side):
+        self.side = side
+
+    def area(self):
+        return self.side ** 2
+    
+
