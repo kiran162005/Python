@@ -7,3 +7,8 @@ class Animal:
     alive = True
 
 
+class Dog(Animal):
+    def speak(self):
+        print("WOOF!")
+
+
