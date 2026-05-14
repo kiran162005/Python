@@ -4,3 +4,9 @@
 # Instance methods = Best for operations on instances of the class (objects)
 # Static methods  = Best for utility functions that do not need access to class data
 
+class Employee:
+
+    def __init__(self, name, position):
+        self.name = name
+        self.position = position
+
