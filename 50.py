@@ -10,3 +10,6 @@ class Employee:
         self.name = name
         self.position = position
 
+    def get_info(self):
+        return f"{self.name} = {self.position}"
+    
