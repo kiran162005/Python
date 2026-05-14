@@ -13,3 +13,8 @@ class Employee:
     def get_info(self):
         return f"{self.name} = {self.position}"
     
+    @staticmethod
+    def is_valid_position(position):
+        valid_positions = ["manager", "Cashier", "Cook", "Janitor"]
+        return position in valid_positions
+    
