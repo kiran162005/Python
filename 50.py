@@ -25,3 +25,4 @@ employee3 = Employee("Sunny", "Cook")
 print(Employee.is_valid_position("Cook"))
 print(Employee.is_valid_position("Scientist"))
 
+print(employee1.get_info())
