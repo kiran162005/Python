@@ -18,3 +18,7 @@ class Employee:
         valid_positions = ["manager", "Cashier", "Cook", "Janitor"]
         return position in valid_positions
     
+employee1 = Employee("Alice", "Manager")
+employee2 = Employee("Bob", "cashier")
+employee3 = Employee("Sunny", "Cook")
+    
