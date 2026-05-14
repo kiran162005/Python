@@ -22,3 +22,6 @@ employee1 = Employee("Alice", "Manager")
 employee2 = Employee("Bob", "cashier")
 employee3 = Employee("Sunny", "Cook")
     
+print(Employee.is_valid_position("Cook"))
+print(Employee.is_valid_position("Scientist"))
+
