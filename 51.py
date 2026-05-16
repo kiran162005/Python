@@ -9,3 +9,10 @@
 class Student:
     count = 0
     total_gpa = 0
+
+    def __init__(self, name, gpa):
+        self.name = name
+        self.gpa = gpa
+        Student.count += 1
+        Student.total_gpa += gpa
+
