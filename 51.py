@@ -33,3 +33,8 @@ class Student:
             return f"{cls.total_gpa / cls.count:.2f}"
 
 
+# Create objects
+student1 = Student("Spongebob", 3.5)
+student2 = Student("Patrick", 2.8)
+student3 = Student("Sandy", 4.0)
+
