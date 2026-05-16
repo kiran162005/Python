@@ -16,3 +16,7 @@ class Student:
         Student.count += 1
         Student.total_gpa += gpa
 
+    # INSTANCE METHOD
+    def get_info(self):
+        return f"{self.name} {self.gpa}"
+
