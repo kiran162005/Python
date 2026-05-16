@@ -5,3 +5,7 @@
 # Static methods   = Best for utility functions that do not need access to class data
 # Class methods    = Best for class-level data or require access to the class itself
 
+
+class Student:
+    count = 0
+    total_gpa = 0
