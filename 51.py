@@ -38,3 +38,6 @@ student1 = Student("Spongebob", 3.5)
 student2 = Student("Patrick", 2.8)
 student3 = Student("Sandy", 4.0)
 
+print(student1.get_info())
+print(student2.get_info())
+
