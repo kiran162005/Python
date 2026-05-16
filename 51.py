@@ -20,3 +20,8 @@ class Student:
     def get_info(self):
         return f"{self.name} {self.gpa}"
 
+    # CLASS METHOD
+    @classmethod
+    def get_count(cls):
+        return f"Total # of students: {cls.count}"
+    
