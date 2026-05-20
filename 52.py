@@ -61,3 +61,7 @@ class Book:
         else:
             return f"Key '{key}' waas not found"
 
+book1 = Book("The Hobbit", "J.R.R. Tolkien", 310)
+book2 = Book("Harry potter and The Philosopher's Stone", "J.K Rowling", 223)
+book3 = Book("The Lion, the Witch and the Wardrobe", "C.S. Lewis", 172)
+
