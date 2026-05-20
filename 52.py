@@ -33,3 +33,9 @@ class Book:
         self.author = author
         self.num_pages = num_pages
 
+    def __str__(self):
+        return f"'{self.title}' by '{self.author}'"
+    
+    def __eq__(self, other):
+        return self.title == other.title and self.author == other.author
+    
