@@ -9,3 +9,9 @@ class Student:
         self.name = name
         self.gpa = gpa
 
+    def __str__(self):
+        return f"name: {self.name} gpa: {self.gpa}"
+
+    def __eq__(self, other):
+        return self.name == other.name
+
