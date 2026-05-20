@@ -51,3 +51,13 @@ class Book:
     def __contains__(self, keyword):
         return keyword in self.title or keyword in self.author
     
+    def __getitem__(self, key):
+        if key == "title":
+            return self.title
+        elif key == "author":
+            return self.author
+        elif key == "num_pages":
+            return self.num_pages
+        else:
+            return f"Key '{key}' waas not found"
+
