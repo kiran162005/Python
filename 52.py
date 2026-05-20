@@ -73,3 +73,6 @@ print(book2 + book3)
 print("Lion" in book1)
 print("Lion" in book3)
 
+print(book2['title'])
+print(book1['author'])
+print(book3['num_pages'])
