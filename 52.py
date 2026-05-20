@@ -22,3 +22,8 @@ class Student:
 student1 = Student("Spongebob", 3.2)
 student2 = Student("Patrick", 2.0)
 
+print(student1)
+print(student1 == student2)
+print(student1 > student2)
+'''
+
