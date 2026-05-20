@@ -15,3 +15,10 @@ class Student:
     def __eq__(self, other):
         return self.name == other.name
 
+    def __gt__(self, other):
+        return self.gpa > other.gpa
+
+
+student1 = Student("Spongebob", 3.2)
+student2 = Student("Patrick", 2.0)
+
