@@ -39,3 +39,15 @@ class Book:
     def __eq__(self, other):
         return self.title == other.title and self.author == other.author
     
+    def __lt__(self, other):
+        return self.num_pages < other.num_pages
+    
+    def __lt__(self, other):
+        return self.num_pages > other.num_pages
+    
+    def __add__(self, other):
+        return self.num_pages + other.num_pages
+    
+    def __contains__(self, keyword):
+        return keyword in self.title or keyword in self.author
+    
