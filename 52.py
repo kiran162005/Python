@@ -70,3 +70,6 @@ print(book2)
 print(book1 == book2)
 print(book2 < book3)
 print(book2 + book3)
+print("Lion" in book1)
+print("Lion" in book3)
+
