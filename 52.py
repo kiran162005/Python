@@ -27,3 +27,9 @@ print(student1 == student2)
 print(student1 > student2)
 '''
 
+class Book:
+    def __init__(self, title, author, num_pages):
+        self.title = title
+        self.author = author
+        self.num_pages = num_pages
+
