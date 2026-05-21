@@ -18,3 +18,10 @@ class Rectangle:
         return self._height
     
 
+    @width.setter
+    def width(self, new_width):
+        if new_width > 0:
+            self._width = new_width
+        else:
+            print("Width must be greater than zero")
+
