@@ -42,3 +42,5 @@ rectangle = Rectangle(3, 4)
 rectangle.width = 5
 del rectangle.width
 
+print(rectangle.width)
+print(rectangle.height)
