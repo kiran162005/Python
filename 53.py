@@ -32,3 +32,9 @@ class Rectangle:
         else:
             print("Hight must be greater than zero")
 
+    @width.deleter
+    def width(self):
+        del self._width
+        print("Width has been deleted")
+
+
