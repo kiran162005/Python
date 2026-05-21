@@ -4,3 +4,8 @@
 
 # Gives you getter, setter, and deleter method
 
+class Rectangle:
+    def __init__(self, width, height):
+        self._width = width
+        self._height = height
+
