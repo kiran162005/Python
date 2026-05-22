@@ -9,3 +9,5 @@ def add_sprinkles(func):
     def wrapper(*args, **kwargs):
         print("*You add sprinkles*")
         func(*args, **kwargs)
+    return wrapper
+
