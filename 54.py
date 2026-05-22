@@ -12,3 +12,6 @@ def add_sprinkles(func):
     return wrapper
 
 def add_fudge(func):
+    def wrapper(*args, **kwargs):
+        print("You add fudge")
+        func(*args, **kwargs)
