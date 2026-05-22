@@ -23,3 +23,4 @@ def add_fudge(func):
 def get_ice_cream(flavour):
     print("Here is your ice cream")
 
+get_ice_cream("vanilla")
