@@ -18,3 +18,5 @@ def add_fudge(func):
     return wrapper
 
 
+@add_sprinkles
+@add_fudge
