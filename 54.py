@@ -11,3 +11,4 @@ def add_sprinkles(func):
         func(*args, **kwargs)
     return wrapper
 
+def add_fudge(func):
