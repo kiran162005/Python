@@ -13,3 +13,5 @@ if os.path.exists(file_path):
     elif os.path.isdir(file_path):
         print("That is a directory")
 
+else:
+    print("That location doesn't exists")
