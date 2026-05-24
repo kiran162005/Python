@@ -10,3 +10,6 @@ if os.path.exists(file_path):
     if os.path.isfile(file_path):
         print("That is a file")
 
+    elif os.path.isdir(file_path):
+        print("That is a directory")
+
