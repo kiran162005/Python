@@ -13,3 +13,5 @@ except ValueError:
 except Exception:
     print("Something went wrong! ")
 
+finally:
+    print("Do some clean-up")
