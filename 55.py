@@ -7,3 +7,6 @@ try:
     print(1 / number)
 except ZeroDivisionError:
     print("You can't divide by zero IDIOT!")
+except ValueError:
+    print("Enter only numbers please!")
+
