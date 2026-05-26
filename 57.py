@@ -52,3 +52,22 @@ except:
     print("That file already exists")
 '''
 
+import csv
+
+employees = [
+    ["Name", "Age", "Job"],
+    ["Alice", 30, "Engineer"],
+    ["Bob", 25, "Designer"],
+    ["Charlie", 28, "Manager"]
+]
+
+file_path = "output.csv"
+
+try:
+    with open(file_path, "w", newline="") as file:
+        writer = csv.writer(file)
+        for row in employees:
+            writer.writerow(row)
+        print(f"csv file '{file_path} was created")
+except FileExistsError:
+    print("That file already exists")
