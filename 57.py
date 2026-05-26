@@ -17,3 +17,10 @@ with open(file_path, "w") as file:
 #         print(f"txt file '{file_path} was created")
 # except:
 #     print("That file already exists")
+
+'''
+with open(file_path, "a") as file:
+    file.write("\n" + txt_data)
+    print(f"txt file '{file_path} was created")
+'''
+
