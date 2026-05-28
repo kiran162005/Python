@@ -14,3 +14,8 @@ except PermissionError:
     print("YOu do not have permission to read that file")
 '''
 
+'''
+import json
+
+file_path = "C:/Users/Kiran T/python1/output.json"
+
