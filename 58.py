@@ -39,3 +39,8 @@ try:
         content = csv.reader(file)
         for line in content:
             print(line)
+except FileNotFoundError:
+    print("That file was not found")
+
+except PermissionError:
+    print("YOu do not have permission to read that file")
