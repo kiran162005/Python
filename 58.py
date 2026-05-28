@@ -29,3 +29,8 @@ except FileNotFoundError:
 except PermissionError:
     print("YOu do not have permission to read that file")
 '''
+
+import csv
+
+file_path = "C:/Users/Kiran T/python1/output.csv"
+
