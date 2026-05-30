@@ -17,3 +17,5 @@ current_datetime = datetime.datetime.now()
 
 if target_datetime < current_datetime:
     print("target date has passes")
+else:
+    print("Target date has not passed")
