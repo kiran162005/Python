@@ -13,3 +13,5 @@ print(today)
 print(date)
 
 target_datetime = datetime.datetime(2030, 1, 2, 12, 30, 1)
+current_datetime = datetime.datetime.now()
+
