@@ -28,3 +28,6 @@ def set_alarm(alarm_time):
         time.sleep(1)
 
 
+if __name__ == "__main__":
+    alarm_time = input("Enter the alarm time (HH:MM:SS): ")
+    set_alarm(alarm_time)
