@@ -1,4 +1,4 @@
-# Python Alaram clock
+# Python Alarm clock
 
 import time
 import datetime
