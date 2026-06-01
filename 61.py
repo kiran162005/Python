@@ -21,3 +21,5 @@ def get_mail():
 # take_out_trash()
 # get_mail()
 
+chore1 = threading.Thread(target=walk_dog)
+chore1.start()
