@@ -27,3 +27,6 @@ chore1.start()
 chore2 = threading.Thread(target=take_out_trash)
 chore2.start()
 
+chore3 = threading.Thread(target=get_mail)
+chore3.start()
+
