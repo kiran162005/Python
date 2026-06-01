@@ -9,3 +9,7 @@ def walk_dog():
     time.sleep(8)
     print("You finish walking the dog")
 
+def take_out_trash():
+    time.sleep(2)
+    print("You take out the trash")
+
