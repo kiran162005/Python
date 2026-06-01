@@ -16,3 +16,8 @@ def take_out_trash():
 def get_mail():
     time.sleep(4)
     print("You get the mail")
+
+# walk_dog()
+# take_out_trash()
+# get_mail()
+
