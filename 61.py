@@ -5,3 +5,7 @@
 import threading
 import time
 
+def walk_dog():
+    time.sleep(8)
+    print("You finish walking the dog")
+
