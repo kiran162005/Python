@@ -23,3 +23,7 @@ def get_mail():
 
 chore1 = threading.Thread(target=walk_dog)
 chore1.start()
+
+chore2 = threading.Thread(target=take_out_trash)
+chore2.start()
+
