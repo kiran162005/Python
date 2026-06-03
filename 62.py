@@ -12,3 +12,8 @@ def get_pokemon_info(name):
     if response.status_code == 200:
         pokemon_data = response.json()
         return pokemon_data
+    else:
+        print(f"Failed to receive data {response.status_code}")
+        return None
+
+
