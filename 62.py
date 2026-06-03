@@ -9,3 +9,6 @@ def get_pokemon_info(name):
     response = requests.get(url)
     print(response)
 
+    if response.status_code == 200:
+        pokemon_data = response.json()
+        return pokemon_data
