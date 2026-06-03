@@ -20,3 +20,6 @@ def get_pokemon_info(name):
 pokemon_name = "pikachu"
 pokemon_info = get_pokemon_info(pokemon_name)
 
+if pokemon_info:
+    print(f"Name: {pokemon_info['name'].capitalize()}")
+    print(f"ID: {pokemon_info['id']}")
