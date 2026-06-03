@@ -17,3 +17,6 @@ def get_pokemon_info(name):
         return None
 
 
+pokemon_name = "pikachu"
+pokemon_info = get_pokemon_info(pokemon_name)
+
