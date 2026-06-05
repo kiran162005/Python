@@ -10,3 +10,6 @@ class MainWindow(QMainWindow):
         self.setWindowTitle("GUI")
         self.setGeometry(700, 300, 600, 500)
 
+def main():
+    app = QApplication(sys.argv)
+    window = MainWindow()
