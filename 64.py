@@ -11,3 +11,6 @@ class MainWindow(QMainWindow):
         super().__init__()
         self.setGeometry(700, 300, 600, 500)
 
+        label = QLabel("Hello", self)
+        label.setFont(QFont("Arial", 40))
+        label.setGeometry(0, 0, 500, 100)
