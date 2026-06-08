@@ -23,3 +23,14 @@ class MainWindow(QMainWindow):
         # label.setAlignment(Qt.AlignBottom) # Vertically bottom
         # label.setAlignment(Qt.AlignVCenter) # Vertically center
 
+        # label.setAlignment(Qt.AlignRight) # Horizontally right
+        # label.setAlignment(Qt.AlignHCenter) # Horizontally center
+        # label.setAlignment(Qt.AlignLeft) # Horizontally left
+
+        # label.setAlignment(Qt.AlignHCenter | Qt.AlignBottom)
+        # label.setAlignment(Qt.AlignHCenter | Qt.AlignVCenter)
+        label.setAlignment(Qt.AlignCenter)
+
+
+
+
