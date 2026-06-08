@@ -14,3 +14,8 @@ class MainWindow(QMainWindow):
         label = QLabel("Hello", self)
         label.setFont(QFont("Arial", 40))
         label.setGeometry(0, 0, 500, 100)
+        label.setStyleSheet("color:blue;"
+                            "background-color: red;"
+                            "font-weight:bold;"
+                            "font-style:italic;"
+                            "text-decoration:underline;")
