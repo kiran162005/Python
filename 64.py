@@ -19,3 +19,7 @@ class MainWindow(QMainWindow):
                             "font-weight:bold;"
                             "font-style:italic;"
                             "text-decoration:underline;")
+        # label.setAlignment(Qt.AlignTop) # Vertically top
+        # label.setAlignment(Qt.AlignBottom) # Vertically bottom
+        # label.setAlignment(Qt.AlignVCenter) # Vertically center
+
