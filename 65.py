@@ -22,3 +22,6 @@ class MainWindow(QMainWindow):
                         label.width(), 
                         label.height())
 
+def main():
+    app = QApplication(sys.argv)
+    window = MainWindow()
