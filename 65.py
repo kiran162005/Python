@@ -12,3 +12,6 @@ class MainWindow(QMainWindow):
         label = QLabel(self)
         label.setGeometry(0, 0, 250, 250)
 
+        pixmap = QPixmap(r"C:\Users\Kiran T\OneDrive\Pictures\Screenshots\Screenshot 2026-04-03 185901.png")
+        label.setPixmap(pixmap)
+
