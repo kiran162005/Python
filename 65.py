@@ -15,3 +15,5 @@ class MainWindow(QMainWindow):
         pixmap = QPixmap(r"C:\Users\Kiran T\OneDrive\Pictures\Screenshots\Screenshot 2026-04-03 185901.png")
         label.setPixmap(pixmap)
 
+        label.setScaledContents(True)
+
