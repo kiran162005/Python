@@ -17,3 +17,8 @@ class MainWindow(QMainWindow):
 
         label.setScaledContents(True)
 
+        label.setGeometry(self.width() - label.width(),
+                        self.height() - label.height() , 
+                        label.width(), 
+                        label.height())
+
