@@ -9,3 +9,6 @@ class MainWindow(QMainWindow):
         super().__init__()
         self.setGeometry(700, 300, 500, 500)
 
+        label = QLabel(self)
+        label.setGeometry(0, 0, 250, 250)
+
