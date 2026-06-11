@@ -43,3 +43,17 @@ class MainWindow(QMainWindow):
         hbox.addWidget(label4)
         hbox.addWidget(label5)
 
+        central_widget.setLayout(hbox)'''
+
+
+        grid = QGridLayout()
+
+        grid.addWidget(label1, 0,0)
+        grid.addWidget(label2, 0, 1)
+        grid.addWidget(label3, 1, 0)
+        grid.addWidget(label4, 1, 1)
+        grid.addWidget(label5, 1, 2)
+
+        central_widget.setLayout(grid)
+
+
