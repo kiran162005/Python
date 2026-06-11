@@ -35,3 +35,11 @@ class MainWindow(QMainWindow):
         vbox.addWidget(label5)'''
 
 
+        '''hbox = QHBoxLayout()
+
+        hbox.addWidget(label1)
+        hbox.addWidget(label2)
+        hbox.addWidget(label3)
+        hbox.addWidget(label4)
+        hbox.addWidget(label5)
+
