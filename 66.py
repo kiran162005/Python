@@ -26,3 +26,12 @@ class MainWindow(QMainWindow):
         label4.setStyleSheet("background-color: yellow;")
         label5.setStyleSheet("background-color: purple;")
 
+        '''vbox = QVBoxLayout()
+
+        vbox.addWidget(label1)
+        vbox.addWidget(label2)
+        vbox.addWidget(label3)
+        vbox.addWidget(label4)
+        vbox.addWidget(label5)'''
+
+
