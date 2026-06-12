@@ -26,3 +26,7 @@ class MainWindow(QMainWindow):
         # self.button.setText("Clicked")
         # self.button.setDisabled(True)
         
+
+if __name__ == '__main__':
+    app = QApplication(sys.argv)
+    window = MainWindow()
