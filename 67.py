@@ -10,3 +10,9 @@ class MainWindow(QMainWindow):
         self.button = QPushButton("Click me!", self)
         self.label = QLabel("Hello", self)
         self.initUI()
+
+    def initUI(self):
+        self.button.setGeometry(150, 200, 200, 100)
+        self.button.setStyleSheet("font-size: 30px;")
+        self.button.clicked.connect(self.on_click)
+
