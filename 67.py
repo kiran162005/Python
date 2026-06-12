@@ -20,3 +20,9 @@ class MainWindow(QMainWindow):
         self.label.setStyleSheet("font-size: 50px;")
 
 
+    def on_click(self):
+        self.label.setText("Goodbye")
+        # print("Button clicked")
+        # self.button.setText("Clicked")
+        # self.button.setDisabled(True)
+        
