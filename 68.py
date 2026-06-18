@@ -23,3 +23,11 @@ class MainWindow(QMainWindow):
 
         self.checkbox.stateChanged.connect(self.checkbox_changed)
 
+    def checkbox_changed(self, state):
+
+        if state == Qt.Checked:
+            print("You like food")
+        else:
+            print("You do not like food")
+
+
