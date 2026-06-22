@@ -31,3 +31,6 @@ class MainWindow(QMainWindow):
             print("You do not like food")
 
 
+if __name__ == '__main__':
+    app = QApplication(sys.argv)
+
