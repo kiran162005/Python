@@ -16,3 +16,11 @@ class MainWindow(QMainWindow):
         self.button_group1 = QButtonGroup(self)
         self.button_group2 = QButtonGroup(self)
         self.initUI()
+
+    def initUI(self):
+        self.radio1.setGeometry(0, 0, 300, 50)
+        self.radio2.setGeometry(0, 50, 300, 50)
+        self.radio3.setGeometry(0, 100, 300, 50)
+        self.radio4.setGeometry(0, 150, 300, 50)
+        self.radio5.setGeometry(0, 200, 300, 50)
+
