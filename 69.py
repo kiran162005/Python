@@ -24,3 +24,10 @@ class MainWindow(QMainWindow):
         self.radio4.setGeometry(0, 150, 300, 50)
         self.radio5.setGeometry(0, 200, 300, 50)
 
+        self.setStyleSheet("""
+                           QRadioButton{
+                           font-size: 40px;
+                           font-family: Arial;
+                           padding: 10px;
+                           }
+                           """)
