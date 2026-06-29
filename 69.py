@@ -31,3 +31,10 @@ class MainWindow(QMainWindow):
                            padding: 10px;
                            }
                            """)
+        
+        self.button_group1.addButton(self.radio1)
+        self.button_group1.addButton(self.radio2)
+        self.button_group1.addButton(self.radio3)
+        self.button_group2.addButton(self.radio4)
+        self.button_group2.addButton(self.radio5)
+
