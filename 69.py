@@ -11,3 +11,8 @@ class MainWindow(QMainWindow):
         self.radio1 = QRadioButton("Visa", self)
         self.radio2 = QRadioButton("Mastercard", self)
         self.radio3 = QRadioButton("Gift Card", self)
+        self.radio4 = QRadioButton("In-Store", self)
+        self.radio5 = QRadioButton("Online", self)
+        self.button_group1 = QButtonGroup(self)
+        self.button_group2 = QButtonGroup(self)
+        self.initUI()
