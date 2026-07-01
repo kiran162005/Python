@@ -8,4 +8,5 @@ class MainWindow(QMainWindow):
         super().__init__()
         self.setGeometry(700, 300, 500, 500)
         self.line_edit = QLineEdit(self)
-        
+        self.button = QPushButton("Submit", self)
+        self.initUI()
